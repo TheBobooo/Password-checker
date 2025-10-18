@@ -1,8 +1,8 @@
-package com.pass.passwordchecker.controller; // <--- CHANGE THIS LINE
+package com.pass.passwordchecker.controller;
 
-import com.pass.passwordchecker.model.PasswordCheckRequest; // <--- IMPORTANT: Update these imports too!
-import com.pass.passwordchecker.model.PasswordCheckResponse; // <---
-import com.pass.passwordchecker.service.PasswordStrengthService; // <---
+import com.pass.passwordchecker.model.PasswordCheckRequest;
+import com.pass.passwordchecker.model.PasswordCheckResponse;
+import com.pass.passwordchecker.service.PasswordStrengthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

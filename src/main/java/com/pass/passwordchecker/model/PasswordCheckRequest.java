@@ -1,8 +1,8 @@
 package com.pass.passwordchecker.model;
 
-import lombok.Data; // From Lombok dependency
+import lombok.Data;
 
-@Data // Generates getters, setters, toString, equals, hashCode
+@Data
 public class PasswordCheckRequest {
     private String password;
 }
