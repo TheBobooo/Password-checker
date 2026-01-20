@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@RequestMapping("/api/password")
+@CrossOrigin(origins = "http://localhost:63342")
 public class PasswordStrengthController {
 
     @Autowired
